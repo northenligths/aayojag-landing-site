@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import "./header.css";
 import logo from "../../assets/images/aayojag-logo-main.jpeg";
+import bgLogo from "../../assets/images/aayojag-logo-main-removebg-preview.png";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="header bg-light d-flex justify-content-between shadow-sm py-2 px-2 align-items-center position-relative">
+    <div className="header d-flex justify-content-between shadow-sm py-2 px-2 align-items-center position-relative">
       <div>
-        <img src={logo} alt="" className="mainLogo" />
+        <img src={bgLogo} alt="" className="mainLogo" />
       </div>
       <div className="d-md-none">
         <AiOutlineMenu

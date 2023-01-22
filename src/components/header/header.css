@@ -1,6 +1,6 @@
-/* header {
-  height: auto;
-} */
+.header {
+  background-color: rgb(233, 233, 233);
+}
 .mainLogo {
   height: 80px;
   width: 170px;
