@@ -3,6 +3,7 @@ import AboutUs from "../../components/aboutUs/AboutUs";
 import EventTypes from "../../components/eventTypes/EventTypes";
 import Header from "../../components/header/Header";
 import HeroSection from "../../components/heroSection/HeroSection";
+import Location from "../../components/location/Location";
 import "./homepage.css";
 
 const Homepage = () => {
@@ -12,6 +13,7 @@ const Homepage = () => {
       <HeroSection />
       <AboutUs />
       <EventTypes />
+      <Location />
     </div>
   );
 };
