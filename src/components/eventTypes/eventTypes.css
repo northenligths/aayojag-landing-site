@@ -1,0 +1,35 @@
+.eventTypesBg {
+  height: 1750px;
+  width: 100%;
+}
+.eventTypesHead {
+  color: white;
+  left: 50px;
+  top: 100px;
+}
+.typesHeading {
+  font-size: 40px;
+}
+.eventPara {
+  color: #a0a1b5;
+}
+.cardsHeadText {
+  text-align: center;
+}
+.cards {
+  margin-left: -10px;
+}
+.eventDetails {
+  font-size: 20px;
+  color: #a0a1b5;
+
+  list-style: none;
+}
+.eventHeadBg {
+  background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
+    linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+}
+.cardsImage {
+  width: 316px !important;
+  height: 216px !important;
+}
